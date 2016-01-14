@@ -101,7 +101,7 @@
 
 %Table of contents settings
 
-\addtocontents{toc}{~\hfill\textbf{PAGE}\par}
+\addtocontents{toc}{~\hfill\textbf{\underline{PAGE}}\par}
 \renewcommand{\contentsname}{\hspace*{\fill}\bfseries\normalsize TABLE OF CONTENTS\hspace*{\fill}}
 %\renewcommand{\cftaftertoctitle}{%
 %\\[\baselineskip]\mbox{}\hfill{\normalfont PAGE}}
@@ -255,6 +255,7 @@
 	\addcontentsline{toc}{chapter}{ABSTRACT}
 	\renewcommand{\abstractname}{ABSTRACT}
 	\begin{abstract}
+		
 	\thispagestyle{plain}\addtocounter{pagecounter}{1}
 	\setcounter{page}{\value{pagecounter}}
 	\setlength{\parindent}{5ex}
@@ -267,7 +268,7 @@
 
 %list of tables
 \newcommand{\makelistoftables}{
-	\addtocontents{lot}{\textbf{TABLE}~\hfill\textbf{PAGE}\par}
+	\addtocontents{lot}{\textbf{\underline{TABLE}}~\hfill\textbf{\underline{PAGE}}\par}
 	\renewcommand{\listtablename}{\hspace*{\fill}\bfseries\normalsize LIST OF TABLES\hspace*{\fill}}
 	%\renewcommand{\cftaftertoctitle}{%
 	%\\[\baselineskip]\mbox{}\hfill{\normalfont PAGE}}
@@ -282,7 +283,7 @@
 
 %list of figures
 \newcommand{\makelistoffigures}{
-	\addtocontents{lof}{\textbf{FIGURE}~\hfill\textbf{PAGE}\par}
+	\addtocontents{lof}{\textbf{\underline{FIGURE}}~\hfill\textbf{\underline{PAGE}}\par}
 	\renewcommand{\listfigurename}{\hspace*{\fill}\bfseries\normalsize LIST OF FIGURES\hspace*{\fill}}
 	%\renewcommand{\cftaftertoctitle}{%
 	%\\[\baselineskip]\mbox{}\hfill{\normalfont PAGE}}
