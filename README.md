@@ -11,18 +11,18 @@
 - A number of packages on latex (Automatically downloaded on Windows, texlive-most on Linux)
 - Prior latex writing knowledge
 - For "advanced" linux users that doesnt want to install texlive-most: (here are the minimum required packages to install):
-        - {hyphenat}
-        - {multicol}
-        - {mathptmx}
-        - {geometry}
-        - {graphicx}
-        - {caption}
-        - {tocloft}
-        - {titlesec}
-        - {setspace}
-        - {fancyhdr}
-        - {etoolbox}
-        - {apacite}
+  - {hyphenat}
+  - {multicol}
+  - {mathptmx}
+  - {geometry}
+  - {graphicx}
+  - {caption}
+  - {tocloft}
+  - {titlesec}
+  - {setspace}
+  - {fancyhdr}
+  - {etoolbox}
+  - {apacite}
 
 ##Format based on:
 
