@@ -1,12 +1,12 @@
-#ICS Thesis Latex Template v1.0
+# ICS Thesis Latex Template v1.0
 
-##Files
+## Files
 * icsthesis.cls       - Document class for latex
 * icsthesissample.tex - Sample Usage of cls
 * references.bib      - Bibtex file for literature cited
 * figuretest.jpg      - For figure inclusion testing
 
-##Requirements
+## Requirements
 - Latex and Bibtex (Miktex on windows)
 - A number of packages on latex (Automatically downloaded on Windows, texlive-most on Linux)
 - Prior latex writing knowledge
@@ -24,7 +24,7 @@
   - {etoolbox}
   - {apacite}
 
-##Format based on:
+## Format based on:
 
 1. "A Manual on Form & Style for Theses and Dissertations" by Edelwina Legaspi et. al (2001)
 2. "Pointers in Format Preperation for Thesis/Dissertation Manuscripts" (yellow sheet from GS)
